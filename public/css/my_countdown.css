@@ -1,0 +1,85 @@
+/*  CSS Document                             */
+/*  Written by Chris Converse for Lynda.com  */
+
+#world-premier{
+  position: absolute;
+  top: 430px;
+  left:20px;
+  font-size: 16px;
+  font-family: 'Teko', sans-serif;
+  width: 500px;
+  margin: 25px auto;
+  min-height: 575px;
+}
+
+#world-premier .heading{
+  background-color: rgba(0,0,0,.5);
+  padding: 15px 0px 2px 0px;
+  margin: 0px 0px 30px 0px;
+}
+#world-premier h1{
+  font-size: 4.2em;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: 300;
+  line-height: 70px;
+  margin: 0px 0px 0px -5px;
+  padding: 0;
+  text-align: center;
+}
+#world-premier h2{
+  font-size: 1.5em;
+  color: #6fb5f8;
+  text-transform: uppercase;
+  font-weight: 700;
+  line-height: 18px;
+  margin: 0px;
+  padding: 0;
+  text-align: center;
+  letter-spacing: 9px;
+  width: 400px;
+}
+#world-premier .my-countdown .countdown-row{
+  display: block;
+  text-align: center;
+}
+#world-premier .my-countdown .countdown-section{
+  display: inline-block;
+  width: 95px;
+}
+#world-premier .my-countdown .countdown-amount{
+  display: block;
+  color: #fff;
+  font-size: 5.6em;
+  line-height: 55px;
+}
+#world-premier .my-countdown .countdown-period{
+  display: block;
+  color: #6fb5f8;
+  font-size: 1.4em;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+@media screen and (max-width: 525px) {
+  #world-premier {
+    font-size: 12px;
+    width: 300px;
+    min-height: 465px;
+    background-size: 400px auto;
+  }
+  #world-premier .heading {
+    padding: 12px 0px 8px 0px;
+    margin-bottom: 20px;
+  }
+  #world-premier h1 {
+    line-height: 22px;
+    font-size: 3.7em;
+  }
+  #world-premier h2 {
+    line-height: 22px;
+    letter-spacing: 5px;
+  }
+  #world-premier .my-countdown .countdown-section {
+    width: 68px;
+  }
+}
